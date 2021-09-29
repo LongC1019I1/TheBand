@@ -1,0 +1,34 @@
+@media (max-width: 740px) {
+    #header {
+        overflow: hidden;
+    }
+    #nav {
+        display: block;
+    }
+    #nav ul .sub_nav {
+        position: initial;
+    }
+    #nav>ul>li {
+        display: block;
+    }
+    #nav>ul>li:first-child {
+        display: inline-block;
+    }
+    #nav>ul>li:hover {
+        background-color: #ccc!important;
+    }
+    #nav>ul>li:hover>a {
+        color: #000!important;
+        display: block;
+        background-color: #ccc!important;
+    }
+    #mobile-menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #search {
+        display: none;
+    }
+}
